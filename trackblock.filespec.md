@@ -56,3 +56,15 @@ Segments cover an average of about 10 minutes
 
 These values are not always equal. Possibly playtime vs playtime + idle time?
 
+## Flags
+
+| Flag | `0` | `1` | Description |
+|--:|:-:|:-:|---|
+| `0` | -y | +y | Mirrors point across the x-axis |
+| `1` | `false` | `true` | Horizontal shift (`+4096`) |
+| `2` | -x | +x | Mirrors point across the y-axis |
+| `3` | `true` | `false` | Teleport start? |
+| `4` | `true` | `false` | Teleport end? |
+| `5` | `true` | `false` | Death |
+| `6` | `true` | `false` | Riding a horse? |
+| `7` | `true` | `false` | `true` = MainField , `false` = Dungeon or AocField |
